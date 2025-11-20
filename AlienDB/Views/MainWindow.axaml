@@ -32,7 +32,7 @@
                         <TextBlock Text=" ("/>
                         <TextBlock Text="{Binding PolishTitle}"/>
                         <TextBlock Text=")"/>
-                        <TextBlock Text=" - Ocena IMDb: "/>
+                        <TextBlock Text=" -  Ocena IMDb: "/>
                         <TextBlock Text="{Binding Rating}"/>
                         <TextBlock Text=" |"/>
                         
