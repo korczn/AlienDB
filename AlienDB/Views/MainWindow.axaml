@@ -27,9 +27,14 @@
                     
                     <StackPanel Orientation="Horizontal" Spacing="5">
                         
+                        <TextBlock Text="| "/>
                         <TextBlock Text="{Binding Title}"/>
-                        <TextBlock Text=" / "/>
+                        <TextBlock Text=" ("/>
                         <TextBlock Text="{Binding PolishTitle}"/>
+                        <TextBlock Text=")"/>
+                        <TextBlock Text=" - Ocena IMDb: "/>
+                        <TextBlock Text="{Binding Rating}"/>
+                        <TextBlock Text=" |"/>
                         
                     </StackPanel>
                     
